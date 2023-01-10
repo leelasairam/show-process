@@ -1,0 +1,49 @@
+#card{
+    width: 19rem;
+    margin-bottom: 0.5rem;
+}
+
+#container1{
+    display: grid;
+    place-items: center;  
+    margin: 0.5rem;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+#loading{
+    width: 18rem;
+    display: grid;
+    place-items: center;
+}
+
+#desc{
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+textarea{
+    height: 140px;
+    width: 240px;
+}
+
+@media screen and (min-width: 500px){
+    #card{
+        width: 60rem;
+    }
+    #loading{
+        width: 60rem;
+    }
+    #desc{
+        width: 400px;
+    }
+    textarea{
+        height: 300px;
+        width: 1000px;
+    }
+  }

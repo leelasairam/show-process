@@ -1,0 +1,31 @@
+body{
+    padding: 0.5rem;
+}
+
+#card{
+    width: 20rem;
+}
+
+#spin{
+    width: 20rem;
+    display: grid;
+    place-items: center;
+}
+
+#content{
+    display: grid;
+    place-items: center;
+}
+
+#description{
+    white-space: pre-line
+}
+
+@media screen and (min-width: 500px){
+    #card{
+        width: 60rem;
+    }
+    #spin{
+        width: 60rem;
+    }
+  }
