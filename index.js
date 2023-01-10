@@ -1,6 +1,6 @@
 //Authentication
-let url='https://zllsclwpbcfqxrcqfscr.supabase.co';
-let key='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpsbHNjbHdwYmNmcXhyY3Fmc2NyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzIyMjE0NTEsImV4cCI6MTk4Nzc5NzQ1MX0.FpnYKoBNV58sjAq1fPQzQdp2CjgLSIX6eQwUpMVinpA';
+let url='';
+let key='';
 var supabase  = supabase.createClient(url,key);
 
 const SignUp = async() => {
